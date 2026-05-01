@@ -205,3 +205,32 @@ button.secondary:hover {
 .leaflet-popup-tip {
     background-color: var(--panel-bg);
 }
+
+/* Map Builder Modes */
+.mode-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.mode-btn {
+    background-color: var(--bg-dark);
+    color: var(--text-secondary);
+    border: 1px solid var(--border);
+}
+
+.mode-btn.active {
+    background-color: var(--accent);
+    color: white;
+    border-color: var(--accent);
+}
+
+.danger-text {
+    color: var(--danger) !important;
+    border-color: rgba(239, 68, 68, 0.3) !important;
+}
+
+.danger-text:hover {
+    background-color: rgba(239, 68, 68, 0.1) !important;
+}
